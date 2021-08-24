@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Registration Form</title>
+</head>
+<body>
+    <div class="formContainer">
+        <h1>Apply Here!</h1>
+        <form action="">
+            <div class="nameContainer">
+                <label for="firstName">First Name: </label>
+                <input type="text" required>
+
+                <label for="surname">Surname: </label>
+                <input type="text" required>
+            </div>
+
+            <div class="raceTypeContainer">
+                <p>Select a race: </p>
+                <input type="radio" name="raceType" id="funRun" value="funRun">
+                <label for="funRun">Fun Run 5k</label>
+
+                <input type="radio" name="raceType" id="halfMarathon" value="halfMarathon">
+                <label for="halfMarathon">Half Marathon</label>
+
+                <input type="radio" name="raceType" id="fullMarathon" value="fullMarathon">
+                <label for="fullMarathon">Full Marathon</label>
+            </div>
+
+            <div class="emailContainer">
+                <label for="email" class="emailLabel">Email: </label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="password" class="passwordLabel">Password: </label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            
+            <div class="ageGroupContainer">
+                <label for="ageGroup" class="selectAgeGroup">Select Age Group: </label>
+                <select name="ageGroup" id="ageGroup">
+                    <option value="under18">Under 18</option>
+                    <option value="19to25">18 - 30</option>
+                    <option value="26 to 50">30 - 50</option>
+                    <option value="over50">Over 50</option>
+                </select>
+            </div>
+
+            <button>Register</button>
+        </form>
+    </div>
+</body>
+</html>
