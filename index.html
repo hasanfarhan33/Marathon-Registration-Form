@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <title>Marathon Registration Form</title>
 </head>
 <body>
+    <h1 class="marathonName">RUN TIL' YOU DROP!</h1>
     <div class="formContainer">
         <h1>Apply Here!</h1>
         <form action="">
@@ -20,13 +28,13 @@
 
             <div class="raceTypeContainer">
                 <p>Select a race: </p>
-                <input type="radio" name="raceType" id="funRun" value="funRun">
+                <input type="radio" name="raceType" id="funRun" value="funRun" class="radioButton">
                 <label for="funRun">Fun Run 5k</label>
 
-                <input type="radio" name="raceType" id="halfMarathon" value="halfMarathon">
+                <input type="radio" name="raceType" id="halfMarathon" value="halfMarathon" class="radioButton">
                 <label for="halfMarathon">Half Marathon</label>
 
-                <input type="radio" name="raceType" id="fullMarathon" value="fullMarathon">
+                <input type="radio" name="raceType" id="fullMarathon" value="fullMarathon" class="radioButton">
                 <label for="fullMarathon">Full Marathon</label>
             </div>
 
